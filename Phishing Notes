@@ -39,3 +39,14 @@ Malware Sandboxes
 Phishing Tool: PhishTool automates much of the manual work involved in analyzing suspicious emails
   - https://www.phishtool.com/
   - 
+PHISHING PREVENTION
+    Sender Policy Framework (SPF)
+    - Sender Policy Framework () is used to authenticate the sender of an email.
+    - An record is a TXT record containing a list of the IP addresses that are allowed to send email on behalf of your domain.
+   https://tryhackme-images.s3.amazonaws.com/user-uploads/616945d482ef350052080da1/room-content/616945d482ef350052080da1-1759814016781.svg Tool:
+    - https://dmarcian.com/spf-survey/
+
+    DomainKeys Identified Mail (DKIM):
+    - DKIM is used for the authentication of an email that’s being sent.
+    
+https://tryhackme-images.s3.amazonaws.com/user-uploads/616945d482ef350052080da1/room-content/616945d482ef350052080da1-1759815078151.svg
