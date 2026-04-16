@@ -1,0 +1,41 @@
+Header Artifacts
+
+When you begin your analysis with the email header, you should take note of the following points: 
+
+    Sender email address: Where did the email originate from?
+    Sender IP address: What is the source IP, and what does a reverse lookup reveal?
+    Email subject line: Does it contain urgency or a call to action?
+    Recipient email address: Who is the intended recipient (To/CC/BCC)?
+    Reply-To email address: Where are responses being directed?
+    Date and time: When was the email sent?
+
+
+Body Analysis
+Next comes the email body, which has its own set of artifacts to be aware of: 
+
+    - URLs and hyperlinks: Identify all links and expand shortened URLs to reveal their true destination
+    - Attachment name(s): What files are included, and do their names or extensions appear suspicious
+    - Attachment hash: Generate a hash value for threat intelligence lookups
+
+Mail Header Analysis tools:
+- https://toolbox.googleapps.com/apps/messageheader/analyzeheader
+- https://mha.azurewebsites.net/
+
+IP and URL Reputation Analysis:
+  - https://ipinfo.io/
+  - https://urlscan.io/
+  - https://talosintelligence.com/reputation_center/
+
+Mail Body Analysis
+  - https://www.convertcsv.com/url-extractor.htm
+  - https://gchq.github.io/CyberChef/#recipe=Extract_URLs(false,false,false)
+  - https://www.virustotal.com/gui/
+
+Malware Sandboxes
+ - https://app.any.run/
+ - https://hybrid-analysis.com/
+  - https://www.joesandbox.com/
+  
+Phishing Tool: PhishTool automates much of the manual work involved in analyzing suspicious emails
+  - https://www.phishtool.com/
+  - 
